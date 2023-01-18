@@ -21,3 +21,8 @@
   #### HTML and TailwindCSS Project-1 Link
   ---
    [TailwindCSS Project-1 Link](https://github.com/lingesh360/FSJS2.0/tree/main/HTML%20and%20TailwindCSS%20Projects/01_Project-%20Credit%20Card%20Landing%20Page)
+   
+  #### HTML and TailwindCSS Project-2 Link
+  ---
+   [TailwindCSS Project-2 Link](https://github.com/lingesh360/FSJS2.0/tree/main/HTML%20and%20TailwindCSS%20Projects/02_Project-%20Hosting%20Site%20Landing%20Page)
+  
