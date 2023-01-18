@@ -1,0 +1,80 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+  margin: o;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* margin: 3rem; */
+  /* padding: 3rem;  */
+  
+}
+
+.navbar-container {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  /* margin-bottom: 3rem; */
+}
+
+.navbar-container img {
+width: 7rem;
+}
+.button-group {
+    margin-right: 9rem;
+}
+.list {
+  display: flex;
+  flex: auto;
+  list-style: none;
+  gap: 3rem;
+  color: #a6a8ab;
+  margin-right: 24rem;
+}
+
+.list-item:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.nav-button {
+  background-color: #4d2f9e;
+  color: whitesmoke;
+  padding: 14px 24px 14px 24px;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  flex: auto;
+  height: calc(100vh - 20vh);
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+.heading-text {
+  font-size: 3rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #2f1c73;
+}
+.heading-text span {
+    color: #7074c4;
+}
+.description {
+    color: #a6a8ab;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+}

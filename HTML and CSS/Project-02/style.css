@@ -1,0 +1,64 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 64px 10px 64px;
+}
+
+.list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  align-items: center;
+}
+.button-small {
+  background-color: #bc42c7;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 24px 10px 24px;
+  border-radius: 0.25rem;
+}
+.button-large {
+  background-color: #bc42c7;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 24px 10px 24px;
+  border-radius: 0.25rem;
+   font-size: 1rem;
+ text-transform: capitalize;
+  font-weight: bold;
+}
+.hero {
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+  margin: 9rem 21rem 9rem 21rem;
+}
+.hero-description {
+    color: whitesmoke;
+    margin-bottom: 4rem;
+}
+body {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-heading {
+  color: whitesmoke;
+  font-size: 4rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
