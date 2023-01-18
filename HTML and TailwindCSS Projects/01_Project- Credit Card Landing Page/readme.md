@@ -1,5 +1,4 @@
-# Replicate the Following Output
+# HTML and TailwindCSS Project-1 OutPut Looks Like This
 
-`Assests are Provided!`
 
 ![Project 1](./Credit%20card%20landing%20page.png)
