@@ -1,5 +1,5 @@
-# Replicate the Following Output
+# HTML and TailwindCSS Project-2 OutPut
 
-`Assests are Provided!`
+
 
 ![Project 2](./Hosting%20Landing%20Page.png)
