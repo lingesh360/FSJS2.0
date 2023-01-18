@@ -1,0 +1,207 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95vw;
+  height: 10rem;
+  flex: auto;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+}
+
+.list-item:hover {
+  font-size: large;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+}
+ul {
+  display: flex;
+}
+ul li:nth-of-type(1) {
+  order: 1;
+}
+ul li:nth-of-type(2) {
+  order: 3;
+}
+ul li:nth-of-type(3) {
+  order: 2;
+}
+ul li:nth-of-type(4) {
+  order: 4;
+}
+ul li:nth-of-type(5) {
+  order: 5;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.nav-button {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Hero Section */
+
+.hero-container {
+  display: flex;
+ 
+}
+.square img {
+  width: 240px;
+  position: absolute;
+ margin-top: 300px;
+ margin-left: 170px;
+
+}
+
+.hero-container div img {
+  width: 360px;
+  margin-top: 50px;
+margin-left: 0px;
+  z-index: 10;
+  position: relative;
+}
+
+/* Right Section */
+
+.hero-container-right {
+  display: block;
+  
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+position: relative;
+
+}
+
+.hero-container  span:nth-of-type(2) {
+  position: absolute;
+  margin-left: 460px;
+  margin-top:450px ;
+}
+.hero-container  span:nth-of-type(3) {
+  position: absolute;
+  margin-left: 1310px;
+  margin-top: 50px;
+}
+
+
+.globe {
+  position: absolute;
+  margin-left: 640px;
+ 
+}
+.globe img {
+  width: 50px;
+}
+.star img{
+  width: 50px;
+}
+.hero-heading {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+ 
+}
+.hero-description {
+ 
+  font-family: "Poppins", sans-serif;
+  color: rgb(84, 98, 111);
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-right: 180px;
+}
+.button-email {
+  font-family: "Orbitron", sans-serif;
+  font-size: large;
+  font-weight: 700;
+  padding: 0.5rem 2.25rem;
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(83, 90, 98);
+  border: 3px solid rgb(83, 90, 98);
+  margin-left: 240px;
+  margin-top: 50px;
+  
+}
+.button-join {
+     font-family: "Orbitron", sans-serif;
+  font-size: large;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: black;
+  color: whitesmoke;
+  border: 3px solid black;
+ 
+}
+
+.contact-heading {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+  color: rgb(83, 90, 98);
+  margin-top: 50px;
+ 
+}
+
+.icons span {
+  display:flex;
+  flex-direction: row;
+   justify-content: center;
+}
+.icons span img {
+  width: 30px;
+ 
+ 
+}
+.icons span:nth-child(1){
+  margin-top: -30px;
+  margin-right: 120px;
+}
+.icons span:nth-child(2){
+  margin-top: -80px;
+  margin-left: 460px;
+}
+.icons span:nth-child(3){
+  margin-top: -80px;
+  margin-left: 510px;
+}
+.icons span:nth-child(4){
+  margin-top: -79px;
+  margin-left: 170px;
+  
+}
+
+
